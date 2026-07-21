@@ -93,6 +93,7 @@ section {
 
 
 #aboutme{
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.315);
   background-blend-mode: color;
   padding: 10px 16px;
