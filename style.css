@@ -64,18 +64,33 @@ section {
   padding: 30px 10px;
   box-sizing: border-box;
   scroll-margin-top: 70px;
+  text-align: center;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
 
 }
 #projects a{
-  text-align: center;
+
   color: white;
   text-decoration: none;
-  background-color: rgba(17, 17, 17, 0.164);
+  background-color:  rgba(0, 0, 0, 0.315)
   padding: 8px 16px;
   border-radius: 12px;
  
   transition: ease-in;
 }
+
+#projects{
+  background-color:  rgba(0, 0, 0, 0.315)
+}
+#contact{
+  background-color: rgba(0, 0, 0, 0.315);
+  text-decoration: none;
+}
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+
 
 #aboutme{
   background-color: rgba(0, 0, 0, 0.315);
