@@ -36,6 +36,7 @@ header {
 nav {
   display: flex;
   gap: 40px;
+  
 }
 
 nav a {
@@ -69,18 +70,16 @@ section {
 
 }
 #projects a{
-
   color: white;
   text-decoration: none;
-  background-color:  rgba(0, 0, 0, 0.315)
+  background-color: rgba(0, 0, 0, 0.315);
   padding: 8px 16px;
   border-radius: 12px;
- 
   transition: ease-in;
 }
 
 #projects{
-  background-color:  rgba(0, 0, 0, 0.315)
+  background-color: rgba(0, 0, 0, 0.315);
 }
 #contact{
   background-color: rgba(0, 0, 0, 0.315);
@@ -102,4 +101,20 @@ section {
 
 #vidBG{
   filter: blur(5px);
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px 15px;
+    gap: 10px;
+  }
+  body {
+    padding-top: 110px; /* bumped up since stacked header is taller now */
+  }
+
+  section {
+    scroll-margin-top: 110px; /* match the new header height so scrolling lands correctly */
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+  }
 }
